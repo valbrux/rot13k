@@ -19,6 +19,7 @@ def rot13k(string,key):
     for x in LETTERS:
         if x not in s:
             s.append(x)
+    print(letters_original)
     print(s)
     result = ""
     for x in string:
